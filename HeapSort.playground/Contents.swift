@@ -39,7 +39,7 @@ func heapSortOf(_ arr: [Int],
         }
         
         if smallest != i {
-            var temp: Int = arr[i]
+            let temp: Int = arr[i]
             arr[i] = arr[smallest]
             arr[smallest] = temp
             heapify(&arr, i: smallest, heapsize: heapsize)
@@ -60,7 +60,7 @@ func heapSortOf(_ arr: [Int],
         var heapsize = arr.count
         buildheap(&arr)
         for _ in 0 ..< (arr.count - 1) {
-            var temp: Int = arr[0]
+            let temp: Int = arr[0]
             arr[0] = arr[heapsize - 1]
             arr[heapsize - 1] = temp
             heapsize = heapsize - 1
