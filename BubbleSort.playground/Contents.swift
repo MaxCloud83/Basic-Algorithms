@@ -18,7 +18,7 @@ func bubbleSort(_ data: inout [Int], type:SortType = .ascending) {
         for j in 0...(data.count - i - 2){ //开始一轮操作
             let flag = (type == .ascending) ? data[j] > data[j + 1] : data[j] < data[j + 1]
             if flag{ //交换位置
-                var temp = data[j]
+                let temp = data[j]
                 data[j] = data[j + 1]
                 data[j + 1] = temp
             }
