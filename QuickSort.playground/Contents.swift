@@ -6,7 +6,7 @@ var str = "Hello, playground"
 
 print(str)
 
-//QuickSort, Partition-Exchange Sort
+//QuickSort, Partition-Exchange Sort : 快速排序法
 
 //辅助空间
 func quickSort(_ data:[Int]) -> [Int] {
