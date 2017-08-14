@@ -4,6 +4,8 @@ import UIKit
 
 var str = "Hello, playground"
 
+print(str)
+
 //QuickSort: 插入排序法
 
 enum SortType {
