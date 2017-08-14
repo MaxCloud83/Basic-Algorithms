@@ -6,7 +6,7 @@ var str = "Hello, playground"
 
 print(str)
 
-//MergeSort: 递归排序法
+//MergeSort: 归并排序法
 
 typealias CRITERIA<Int> = (Int, Int) -> Bool
 
